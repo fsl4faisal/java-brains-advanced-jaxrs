@@ -12,6 +12,8 @@ public class MyResource {
     @GET
     @Produces(TEXT_PLAIN)
     public String testMethod() {
+        System.out.println("I am here..!!");
+        System.out.println("Put a debug point here");
         return "it works";
     }
 }
